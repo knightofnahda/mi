@@ -1,0 +1,140 @@
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #542b8e;
+}
+
+header {
+    background-image: url(https://i.imgur.com/PRPXM5Q.jpeg); /* Update the path to your image */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: rgb(247, 0, 0);
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #b9f600;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(108, 42, 199, 0.8);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Specific styles for each page */
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+}
+/* Add this CSS to your existing styles.css or create a new CSS file for dropdown styles */
+
+/* Style for the dropdown menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style for the dropdown button/link */
+.dropbtn {
+    background-color: #333;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style for the dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Style for each dropdown item/link */
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: #333;
+}
+
+/* Change the background color of dropdown items on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown content when hovering or clicking on the dropdown button/link */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* Add this CSS code to your existing styles.css or create a new CSS rule */
+
+/* Style for the homepage body */
+body {
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.53ymIvO3b1SsJCaYKk_XJgHaEw&pid=Api&P=0&h=180);
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    color: #ff0000; /* Text color for readability on the background */
+    font-family: Arial, sans-serif; /* Choose an appropriate font-family */
+}
+
+/* Center the header content vertically and horizontally */
+header {
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Style for the header h1 */
+header h1 {
+    font-size: 36px;
+}
+
+/* Style for the container (your main content) 
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Additional page-specific styles can be added here */
